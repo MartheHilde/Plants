@@ -1,6 +1,6 @@
 /* Center whole page */
 body {
-    max-width: 500px;
+    max-width: 1200px;
     margin: auto;
   }
 
@@ -32,7 +32,7 @@ body {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
-    min-width: 160px;
+    min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
@@ -51,16 +51,8 @@ body {
   /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;} 
 
-/*Our plants DIV */
-#infoBox {
-  width: 500px;
-}
 
-  /* Monstera img */
-#monsteraIcon {
-  width: 50%;
-}
-
-#imageSize {
+img {
   max-width: 100%;
+  border-radius: 25px;
 }
