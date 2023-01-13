@@ -14,7 +14,7 @@ let calathea = new greenPlant('Goeppertia orbifolia', 'Keep soil moist', 'Averag
 
 $(document).ready(function() {
     function displayPlantInfo(plant) {
-      let plantInfo = `<h3>${plant.name}</h3>`;
+      let plantInfo = `<h5 style="color: green">${plant.name}</h5>`;
       plantInfo += `<p>Care: ${plant.care}</p>`;
       plantInfo += `<p>Water: ${plant.water}</p>`;
       plantInfo += `<p>Light: ${plant.light}</p>`;
